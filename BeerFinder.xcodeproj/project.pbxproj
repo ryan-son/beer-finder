@@ -12,7 +12,6 @@
 		AA1A4F36271CA9A500AA598E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A4F35271CA9A500AA598E /* AppDelegate.swift */; };
 		AA1A4F38271CA9A500AA598E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A4F37271CA9A500AA598E /* SceneDelegate.swift */; };
 		AA1A4F3A271CA9A500AA598E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A4F39271CA9A500AA598E /* ViewController.swift */; };
-		AA1A4F3D271CA9A500AA598E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1A4F3B271CA9A500AA598E /* Main.storyboard */; };
 		AA1A4F3F271CA9A800AA598E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1A4F3E271CA9A800AA598E /* Assets.xcassets */; };
 		AA1A4F42271CA9A800AA598E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1A4F40271CA9A800AA598E /* LaunchScreen.storyboard */; };
 		AA1A4F4D271CA9A800AA598E /* BeerFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A4F4C271CA9A800AA598E /* BeerFinderTests.swift */; };
@@ -48,7 +47,6 @@
 		AA1A4F35271CA9A500AA598E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA1A4F37271CA9A500AA598E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AA1A4F39271CA9A500AA598E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AA1A4F3C271CA9A500AA598E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA1A4F3E271CA9A800AA598E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA1A4F41271CA9A800AA598E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA1A4F43271CA9A800AA598E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,7 +136,6 @@
 				AA1A4F35271CA9A500AA598E /* AppDelegate.swift */,
 				AA1A4F37271CA9A500AA598E /* SceneDelegate.swift */,
 				AA1A4F39271CA9A500AA598E /* ViewController.swift */,
-				AA1A4F3B271CA9A500AA598E /* Main.storyboard */,
 				AA1A4F3E271CA9A800AA598E /* Assets.xcassets */,
 				AA1A4F40271CA9A800AA598E /* LaunchScreen.storyboard */,
 				AA1A4F43271CA9A800AA598E /* Info.plist */,
@@ -289,7 +286,6 @@
 				AA1A4F71271CACBC00AA598E /* .swiftlint.yml in Resources */,
 				AA1A4F42271CA9A800AA598E /* LaunchScreen.storyboard in Resources */,
 				AA1A4F3F271CA9A800AA598E /* Assets.xcassets in Resources */,
-				AA1A4F3D271CA9A500AA598E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,14 +469,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AA1A4F3B271CA9A500AA598E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA1A4F3C271CA9A500AA598E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AA1A4F40271CA9A800AA598E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -621,7 +609,6 @@
 				INFOPLIST_FILE = BeerFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -650,7 +637,6 @@
 				INFOPLIST_FILE = BeerFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
