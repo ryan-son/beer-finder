@@ -18,6 +18,7 @@
 		AA1A4F4D271CA9A800AA598E /* BeerFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A4F4C271CA9A800AA598E /* BeerFinderTests.swift */; };
 		AA1A4F57271CA9A800AA598E /* BeerFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A4F56271CA9A800AA598E /* BeerFinderUITests.swift */; };
 		AA1A4F59271CA9A800AA598E /* BeerFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A4F58271CA9A800AA598E /* BeerFinderUITestsLaunchTests.swift */; };
+		AA1A4F71271CACBC00AA598E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = AA1A4F70271CACBC00AA598E /* .swiftlint.yml */; };
 		B2610B8C796E3974344FC7E4 /* Pods_BeerFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EF6338B06B5B58F3C27DC2 /* Pods_BeerFinderTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		AA1A4F65271CAB6E00AA598E /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1A4F69271CAB7600AA598E /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1A4F6C271CAB7A00AA598E /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1A4F70271CACBC00AA598E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		B1419E5CF24BCE24E3DC821F /* Pods-BeerFinder-BeerFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerFinder-BeerFinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-BeerFinder-BeerFinderUITests/Pods-BeerFinder-BeerFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C68B6B82DF43F367899AF201 /* Pods-BeerFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerFinder.debug.xcconfig"; path = "Target Support Files/Pods-BeerFinder/Pods-BeerFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		D9EF6338B06B5B58F3C27DC2 /* Pods_BeerFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 		AA1A4F29271CA9A500AA598E = {
 			isa = PBXGroup;
 			children = (
+				AA1A4F70271CACBC00AA598E /* .swiftlint.yml */,
 				AA1A4F34271CA9A500AA598E /* BeerFinder */,
 				AA1A4F4B271CA9A800AA598E /* BeerFinderTests */,
 				AA1A4F55271CA9A800AA598E /* BeerFinderUITests */,
@@ -185,6 +188,7 @@
 				AA1A4F2F271CA9A500AA598E /* Frameworks */,
 				AA1A4F30271CA9A500AA598E /* Resources */,
 				AC5F2BC8DBB3B2B9F2776F37 /* [CP] Embed Pods Frameworks */,
+				AA1A4F6F271CAC9600AA598E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -282,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1A4F71271CACBC00AA598E /* .swiftlint.yml in Resources */,
 				AA1A4F42271CA9A800AA598E /* LaunchScreen.storyboard in Resources */,
 				AA1A4F3F271CA9A800AA598E /* Assets.xcassets in Resources */,
 				AA1A4F3D271CA9A500AA598E /* Main.storyboard in Resources */,
@@ -305,6 +310,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		AA1A4F6F271CAC9600AA598E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
 		AC5F2BC8DBB3B2B9F2776F37 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
