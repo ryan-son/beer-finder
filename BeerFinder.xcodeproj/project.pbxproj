@@ -133,12 +133,8 @@
 		AA1A4F34271CA9A500AA598E /* BeerFinder */ = {
 			isa = PBXGroup;
 			children = (
-				AA1A4F35271CA9A500AA598E /* AppDelegate.swift */,
-				AA1A4F37271CA9A500AA598E /* SceneDelegate.swift */,
-				AA1A4F39271CA9A500AA598E /* ViewController.swift */,
-				AA1A4F3E271CA9A800AA598E /* Assets.xcassets */,
-				AA1A4F40271CA9A800AA598E /* LaunchScreen.storyboard */,
-				AA1A4F43271CA9A800AA598E /* Info.plist */,
+				AA1A4F73271CAF5100AA598E /* Sources */,
+				AA1A4F72271CAF4300AA598E /* Resources */,
 			);
 			path = BeerFinder;
 			sourceTree = "<group>";
@@ -158,6 +154,42 @@
 				AA1A4F58271CA9A800AA598E /* BeerFinderUITestsLaunchTests.swift */,
 			);
 			path = BeerFinderUITests;
+			sourceTree = "<group>";
+		};
+		AA1A4F72271CAF4300AA598E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A4F3E271CA9A800AA598E /* Assets.xcassets */,
+				AA1A4F40271CA9A800AA598E /* LaunchScreen.storyboard */,
+				AA1A4F43271CA9A800AA598E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA1A4F73271CAF5100AA598E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A4F74271CAF6700AA598E /* Entry */,
+				AA1A4F75271CAF7A00AA598E /* Presentations */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AA1A4F74271CAF6700AA598E /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A4F35271CA9A500AA598E /* AppDelegate.swift */,
+				AA1A4F37271CA9A500AA598E /* SceneDelegate.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		AA1A4F75271CAF7A00AA598E /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A4F39271CA9A500AA598E /* ViewController.swift */,
+			);
+			path = Presentations;
 			sourceTree = "<group>";
 		};
 		BCBF1C1E32C883628481BA31 /* Pods */ = {
@@ -606,7 +638,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W62BWL527B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BeerFinder/Info.plist;
+				INFOPLIST_FILE = BeerFinder/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -634,7 +666,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W62BWL527B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BeerFinder/Info.plist;
+				INFOPLIST_FILE = BeerFinder/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
